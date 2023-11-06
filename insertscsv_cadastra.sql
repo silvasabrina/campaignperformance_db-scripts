@@ -1,0 +1,6 @@
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\base_dados_cadastra.csv'
+INTO TABLE DimDate
+FIELDS TERMINATED BY ' ' 
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
